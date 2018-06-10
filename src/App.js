@@ -3,12 +3,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import Header from "./Components/Header/Header";
+import routes from "./routes";
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
-        <Home />
+
+        {routes}
       </div>
     );
   }

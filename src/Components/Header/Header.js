@@ -6,9 +6,11 @@ class Header extends Component {
     return (
       <div className="Header">
         <Link to="/">
-          <p>Home</p>
+          <p className="link">Home</p>
         </Link>
-        <p>Store</p>
+        <Link to="/Store">
+          <p className="link">Store</p>
+        </Link>
       </div>
     );
   }

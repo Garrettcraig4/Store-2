@@ -11,6 +11,10 @@ class Header extends Component {
         <Link to="/Store">
           <p className="link">Store</p>
         </Link>
+
+        <Link to="/Cart">
+          <p className="link">Cart</p>
+        </Link>
       </div>
     );
   }
